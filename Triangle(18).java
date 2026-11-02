@@ -8,10 +8,12 @@ class Triangle {
         int i = 0;
         while (i <= n) {
             int j = 0;
+            System.out.print("[i=" + i + "] ");
             while (j < i) {
                 System.out.print("*");
                 j++;
             }
+            System.out.println();
             i++;
         }
         sc.close();

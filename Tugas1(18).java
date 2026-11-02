@@ -14,12 +14,12 @@ class Tugas1 {
                 total++;
                 j++;
             }
-            
+
             System.out.println();
             i++;
         }
 
-        System.out.println("Total angka tercetak: " + total);
+        System.out.println("Total angka tercetak : " + total);
         sc.close();
     }
 }
